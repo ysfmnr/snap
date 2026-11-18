@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Hone</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='6' y1='5' x2='26' y2='27'%3E%3Cstop offset='0' stop-color='%23fff'/%3E%3Cstop offset='.55' stop-color='%23fde68a'/%3E%3Cstop offset='1' stop-color='%23fb7185'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='.75' y='.75' width='30.5' height='30.5' rx='7.5' fill='%23000' stroke='%232e2e33' stroke-width='1.5'/%3E%3Cpath d='M16 5 L18.6 13.4 L27 16 L18.6 18.6 L16 27 L13.4 18.6 L5 16 L13.4 13.4Z' fill='url%28%23b%29'/%3E%3C/svg%3E"/>
+<title>Bitsnap</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CclipPath id='c'%3E%3Crect width='64' height='64' rx='14'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23c)'%3E%3Crect width='64' height='64' fill='%235B3A29'/%3E%3Ccircle cx='7' cy='9' r='11' fill='%238B5E3C'/%3E%3Ccircle cx='57' cy='9' r='11' fill='%238B5E3C'/%3E%3Ccircle cx='7' cy='9' r='5' fill='%23E7B98F'/%3E%3Ccircle cx='57' cy='9' r='5' fill='%23E7B98F'/%3E%3Cellipse cx='32' cy='36' rx='40' ry='30' fill='%238B5E3C'/%3E%3Cellipse cx='32' cy='48' rx='15' ry='12' fill='%23E7B98F'/%3E%3Cellipse cx='19' cy='33' rx='7.5' ry='9' fill='%23fff'/%3E%3Cellipse cx='19.8' cy='34' rx='3.6' ry='5' fill='%233a2418'/%3E%3Cellipse cx='21' cy='31.2' rx='1.5' ry='1.9' fill='%23fff'/%3E%3Cellipse cx='45' cy='33' rx='7.5' ry='9' fill='%23fff'/%3E%3Cellipse cx='45.8' cy='34' rx='3.6' ry='5' fill='%233a2418'/%3E%3Cellipse cx='47' cy='31.2' rx='1.5' ry='1.9' fill='%23fff'/%3E%3Cellipse cx='32' cy='44' rx='4.500' ry='3.300' fill='%232b1810'/%3E%3Cpath d='M32 47V51M27 52Q32 55 37 52' stroke='%232b1810' stroke-width='1.800' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3C/svg%3E">
 <script>try{if((localStorage.getItem('hone_theme')||'dark')==='dark')document.documentElement.classList.add('dark')}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased}
 :root{
@@ -328,12 +328,102 @@ body{font-family:var(--font);letter-spacing:-.01em;font-size:15px;background:rad
 .bug-line.bad{background:var(--red-light);border-left-color:var(--red)}
 .bug-why{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;font-size:14.5px;line-height:1.6;color:var(--text2);text-align:left}
 @media(max-width:480px){.oo-tile{font-size:19px;padding:22px 4px}.est-col{font-size:36px}.wp-pair{font-size:22px}}
+
+/* ═══ DUO-STYLE THEME (rounded font, chunky 3D buttons, bright colours) ═══
+   Everything between here and the closing marker overrides the look above. Delete this block to go back. */
+:root{
+  --font:'Nunito','Plus Jakarta Sans',system-ui,sans-serif;--sans:var(--font);--serif:var(--font);
+  --bg:#fff;--bg2:#f7f7f7;--card:#fff;--fill:#f0f0f0;--fill-hover:#e5e5e5;
+  --border:#e5e5e5;--border2:#d0d0d0;--text:#3c3c3c;--text2:#777;--text3:#afafaf;--white:#fff;
+  --green:#58cc02;--green-dark:#58a700;--green-light:#d7ffb8;
+  --blue:#1cb0f6;--blue-dark:#1899d6;--blue-light:#ddf4ff;
+  --red:#ff4b4b;--red-light:#ffdfe0;--yellow:#ffc800;--yellow-light:#fff5cc;
+  --purple:#ce82ff;--purple-dark:#a560e8;--purple-light:#f3e5ff;--orange:#ff9600;
+  --r:16px;--r-sm:12px;--r-lg:20px;--r-xl:24px;--shadow:none;--shadow-card:none;
+}
+:root.dark{
+  --bg:#131f24;--bg2:#1a2a31;--card:#1f2f37;--fill:#243842;--fill-hover:#2c444f;
+  --border:#37464f;--border2:#46606c;--text:#f1f7fb;--text2:#9fb3bd;--text3:#6b8390;--white:#131f24;
+  --green:#58cc02;--green-dark:#89e219;--green-light:rgba(88,204,2,.18);
+  --blue:#1cb0f6;--blue-dark:#49c0f8;--blue-light:rgba(28,176,246,.18);
+  --red:#ff4b4b;--red-light:rgba(255,75,75,.18);--purple-light:rgba(206,130,255,.18);--yellow-light:rgba(255,200,0,.16);
+  --shadow-card:none;
+}
+body{font-family:var(--font);font-weight:700;letter-spacing:0;background:var(--bg) !important}
+html{background:var(--bg)}
+button,input{font-family:var(--font)}
+.home-header{border-bottom:2px solid var(--border);max-width:none;padding:0 28px;background:var(--bg)}
+.home-header>*{max-width:none}
+.logo-name{font-size:28px;font-weight:900;letter-spacing:0;color:var(--green)}
+.streak-badge{background:transparent;color:var(--orange);font-weight:900;font-size:16px;padding:6px 10px}
+.theme-btn{background:transparent;border:2px solid var(--border);box-shadow:0 3px 0 var(--border);width:40px;height:40px}
+.theme-btn:active{transform:translateY(3px);box-shadow:none}
+.home-hero h1{font-size:46px;font-weight:900;letter-spacing:0;line-height:1.1}
+.home-hero h1 em{background:none !important;-webkit-background-clip:border-box;background-clip:border-box;color:var(--green) !important}
+.home-hero p{font-size:17px;font-weight:700;color:var(--text2)}
+.stat-pill{border:2px solid var(--border);border-radius:var(--r-lg);box-shadow:0 4px 0 var(--border)}
+.stat-pill .val{font-size:30px;font-weight:900;letter-spacing:0;color:var(--blue)}
+.stat-pill:nth-child(1) .val{color:var(--orange)}.stat-pill:nth-child(2) .val{color:var(--green)}.stat-pill:nth-child(3) .val{color:var(--blue)}.stat-pill:nth-child(4) .val{color:var(--purple-dark)}
+.stat-pill .lbl{font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:11px}
+.cat-icon{border:2px solid rgba(0,0,0,.08);border-bottom-width:6px;height:150px;background-image:none !important}
+.cat-card:hover .cat-icon{box-shadow:none;transform:translateY(-3px)}
+.cat-card:active .cat-icon{transform:translateY(3px);border-bottom-width:3px}
+.cat-card:nth-child(1) .cat-icon{background:#ffc800 !important;border-color:#e5b400}
+.cat-card:nth-child(2) .cat-icon{background:#1cb0f6 !important;border-color:#1899d6}
+.cat-card:nth-child(3) .cat-icon{background:#58cc02 !important;border-color:#58a700}
+.cat-card:nth-child(4) .cat-icon{background:#ce82ff !important;border-color:#a560e8}
+.cat-card:nth-child(5) .cat-icon{background:#ff9600 !important;border-color:#e58700}
+.cat-name{font-weight:900;font-size:20px;letter-spacing:0}
+.cat-desc{font-weight:700}
+.cat-count{background:var(--fill);font-weight:800;border-radius:12px;color:var(--text2)}
+.cat-tab{border:2px solid var(--border);box-shadow:0 3px 0 var(--border);background:var(--card);font-weight:800;border-radius:14px;padding:8px 18px;text-transform:uppercase;font-size:12px;letter-spacing:.05em}
+.cat-tab:active{transform:translateY(3px);box-shadow:none}
+.cat-tab.on{background:var(--blue-light);border-color:var(--blue);color:var(--blue);box-shadow:0 3px 0 var(--blue)}
+.game-topbar{background:var(--bg);border-bottom:0;max-width:760px;height:64px}
+.back-btn{background:transparent;border:2px solid var(--border);box-shadow:0 3px 0 var(--border);border-radius:14px;width:40px;height:40px;color:var(--text2)}
+.back-btn:hover{background:var(--fill);color:var(--text)}.back-btn:active{transform:translateY(3px);box-shadow:none}
+.progress-bar-wrap{height:16px;background:var(--border);border:0;border-radius:999px;position:relative}
+.progress-bar-fill{background:var(--green);border-radius:999px;position:relative}
+.progress-bar-fill::after{content:'';position:absolute;left:8px;right:8px;top:4px;height:4px;border-radius:4px;background:rgba(255,255,255,.35)}
+.question-card{background:var(--card);border:2px solid var(--border);border-radius:var(--r-xl);box-shadow:0 4px 0 var(--border);padding:40px 28px}
+.q-label{font-weight:900;letter-spacing:.06em}
+.q-problem{font-weight:900;letter-spacing:0}
+.answer-input{border:2px solid var(--border);border-radius:var(--r);background:var(--bg2);font-weight:900;font-size:30px;letter-spacing:0;box-shadow:inset 0 -3px 0 rgba(0,0,0,.04)}
+.answer-input:focus{border-color:var(--blue);background:var(--blue-light)}
+.answer-input.correct{border-color:var(--green);background:var(--green-light)}
+.answer-input.wrong{border-color:var(--red);background:var(--red-light)}
+.option-btn,.oo-tile{border:2px solid var(--border);border-bottom-width:5px;border-radius:var(--r);background:var(--card);font-weight:800;letter-spacing:0;color:var(--text);transition:transform .08s,border-color .08s,background .08s}
+.option-btn:hover:not(:disabled),.oo-tile:hover:not(:disabled){background:var(--bg2);border-color:var(--border);transform:none}
+.option-btn:active:not(:disabled),.oo-tile:active:not(:disabled){transform:translateY(3px);border-bottom-width:2px;margin-bottom:3px}
+.option-btn.correct,.oo-tile.correct{background:var(--green-light);border-color:var(--green);color:var(--green-dark)}
+.option-btn.wrong,.oo-tile.wrong{background:var(--red-light);border-color:var(--red);color:var(--red)}
+.gm-cell{border:2px solid var(--border);border-bottom-width:5px;border-radius:14px;background:var(--card)}
+.gm-cell.lit{background:var(--blue);border-color:var(--blue-dark)}
+.gm-cell.selected{background:var(--blue-light);border-color:var(--blue)}
+.gm-cell.correct{background:var(--green-light);border-color:var(--green)}
+.gm-cell.wrong{background:var(--red-light);border-color:var(--red)}
+.submit-btn,.btn-again,.play-btn{border:0;border-radius:var(--r);background:var(--green);color:#fff;font-weight:900;font-size:15px;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 5px 0 var(--green-dark);padding:15px 20px;transition:transform .08s,box-shadow .08s}
+.play-btn{padding:10px 20px;font-size:13px}
+.submit-btn:hover,.btn-again:hover,.play-btn:hover{background:var(--green);opacity:.94}
+.submit-btn:active:not(:disabled),.btn-again:active,.play-btn:active{transform:translateY(5px);box-shadow:none}
+.submit-btn:disabled{background:var(--fill);color:var(--text3);box-shadow:0 5px 0 var(--border)}
+.btn-home{border:2px solid var(--border);background:var(--card);color:var(--blue);border-radius:var(--r);font-weight:900;font-size:15px;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 4px 0 var(--border);padding:15px}
+.btn-home:hover{background:var(--bg2);color:var(--blue)}.btn-home:active{transform:translateY(4px);box-shadow:none}
+.feedback-chip{border-radius:var(--r);font-weight:900;font-size:16px;padding:12px 20px}
+.feedback-chip.correct{background:var(--green-light);color:var(--green-dark)}
+.feedback-chip.wrong{background:var(--red-light);color:var(--red)}
+.results-card{border:2px solid var(--border);border-radius:var(--r-xl);box-shadow:0 4px 0 var(--border)}
+.results-title{font-weight:900;letter-spacing:0}
+.rs-val{font-weight:900;letter-spacing:0}
+.rs-lbl{font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.pb-banner{font-weight:900}
+/* ═══ end DUO-STYLE THEME ═══ */
 </style>
 </head>
 <body>
 <div class="screen active" id="homeScreen">
   <div class="home-header">
-    <div class="logo"><div class="logo-icon">H</div><div class="logo-name">Hone</div></div>
+    <div class="logo"><div class="logo-icon">B</div><div class="logo-name">Bitsnap</div></div>
     <div class="hdr-right"><div class="streak-badge">&#128293; <span id="streakCount">0</span> day streak</div><button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Light / dark mode"></button></div>
   </div>
   <div class="home-hero">
