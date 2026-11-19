@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Bitsnap</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3CclipPath id='c'%3E%3Crect width='64' height='64' rx='14'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23c)'%3E%3Crect width='64' height='64' fill='%235B3A29'/%3E%3Ccircle cx='7' cy='9' r='11' fill='%238B5E3C'/%3E%3Ccircle cx='57' cy='9' r='11' fill='%238B5E3C'/%3E%3Ccircle cx='7' cy='9' r='5' fill='%23E7B98F'/%3E%3Ccircle cx='57' cy='9' r='5' fill='%23E7B98F'/%3E%3Cellipse cx='32' cy='36' rx='40' ry='30' fill='%238B5E3C'/%3E%3Cellipse cx='32' cy='48' rx='15' ry='12' fill='%23E7B98F'/%3E%3Cellipse cx='19' cy='33' rx='7.5' ry='9' fill='%23fff'/%3E%3Cellipse cx='19.8' cy='34' rx='3.6' ry='5' fill='%233a2418'/%3E%3Cellipse cx='21' cy='31.2' rx='1.5' ry='1.9' fill='%23fff'/%3E%3Cellipse cx='45' cy='33' rx='7.5' ry='9' fill='%23fff'/%3E%3Cellipse cx='45.8' cy='34' rx='3.6' ry='5' fill='%233a2418'/%3E%3Cellipse cx='47' cy='31.2' rx='1.5' ry='1.9' fill='%23fff'/%3E%3Cellipse cx='32' cy='44' rx='4.500' ry='3.300' fill='%232b1810'/%3E%3Cpath d='M32 47V51M27 52Q32 55 37 52' stroke='%232b1810' stroke-width='1.800' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3C/svg%3E">
+<title>Snap</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='3.9' y1='0' x2='27.9' y2='0'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='0.15'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='3.9' x2='0' y2='27.9'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='0.15'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='36' x2='0' y2='60'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='1'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0.15'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' gradientUnits='userSpaceOnUse' x1='36' y1='0' x2='60' y2='0'%3E%3Cstop offset='0' stop-color='%23fff' stop-opacity='1'/%3E%3Cstop offset='1' stop-color='%23fff' stop-opacity='0.15'/%3E%3C/linearGradient%3E%3C/defs%3E%3CclipPath id='tc'%3E%3Crect width='64' height='64' rx='15'/%3E%3C/clipPath%3E%3Crect width='64' height='64' rx='15' fill='%232a2af7'/%3E%3Cg clip-path='url(%23tc)'%3E%3Cpath d='M3.9 15.9A12 12 0 0 0 27.9 15.9' fill='none' stroke='url(%23a)' stroke-width='8' stroke-linecap='butt'/%3E%3Cpath d='M48 3.9A12 12 0 0 0 48 27.9' fill='none' stroke='url(%23b)' stroke-width='8' stroke-linecap='butt'/%3E%3Cpath d='M15.9 36A12 12 0 0 1 15.9 60' fill='none' stroke='url(%23c)' stroke-width='8' stroke-linecap='butt'/%3E%3Cpath d='M36 48A12 12 0 0 1 60 48' fill='none' stroke='url(%23d)' stroke-width='8' stroke-linecap='butt'/%3E%3Ccircle cx='27.9' cy='15.9' r='4' fill='%23fff'/%3E%3Ccircle cx='48' cy='27.9' r='4' fill='%23fff'/%3E%3Ccircle cx='15.9' cy='36' r='4' fill='%23fff'/%3E%3Ccircle cx='36' cy='48' r='4' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E">
 <script>try{if((localStorage.getItem('hone_theme')||'dark')==='dark')document.documentElement.classList.add('dark')}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased}
 :root{
@@ -194,7 +194,7 @@ body{font-family:var(--font);letter-spacing:-.01em;font-size:15px;background:rad
 
 /* header */
 .home-header{height:72px;padding:0 26px;border-bottom:0;background:transparent;max-width:1180px;width:100%;margin:0 auto}
-.logo-icon{display:none}
+.logo-icon{display:flex;background:none;width:32px;height:32px;border-radius:0}.logo-icon svg{display:block}.logo{gap:10px}
 .logo-name{font-size:26px;font-weight:500;letter-spacing:-.045em;text-transform:lowercase}
 .hdr-right{display:flex;align-items:center;gap:10px}
 .streak-badge{background:var(--fill);border:0;border-radius:999px;padding:11px 18px;font-size:14px;font-weight:500;color:var(--text)}
@@ -329,102 +329,124 @@ body{font-family:var(--font);letter-spacing:-.01em;font-size:15px;background:rad
 .bug-why{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;font-size:14.5px;line-height:1.6;color:var(--text2);text-align:left}
 @media(max-width:480px){.oo-tile{font-size:19px;padding:22px 4px}.est-col{font-size:36px}.wp-pair{font-size:22px}}
 
-/* ═══ DUO-STYLE THEME (rounded font, chunky 3D buttons, bright colours) ═══
+/* ═══ CLEAN-FINANCE THEME (big light headlines, pill buttons, blue accent, dark showcase cards) ═══
    Everything between here and the closing marker overrides the look above. Delete this block to go back. */
 :root{
-  --font:'Nunito','Plus Jakarta Sans',system-ui,sans-serif;--sans:var(--font);--serif:var(--font);
-  --bg:#fff;--bg2:#f7f7f7;--card:#fff;--fill:#f0f0f0;--fill-hover:#e5e5e5;
-  --border:#e5e5e5;--border2:#d0d0d0;--text:#3c3c3c;--text2:#777;--text3:#afafaf;--white:#fff;
-  --green:#58cc02;--green-dark:#58a700;--green-light:#d7ffb8;
-  --blue:#1cb0f6;--blue-dark:#1899d6;--blue-light:#ddf4ff;
-  --red:#ff4b4b;--red-light:#ffdfe0;--yellow:#ffc800;--yellow-light:#fff5cc;
-  --purple:#ce82ff;--purple-dark:#a560e8;--purple-light:#f3e5ff;--orange:#ff9600;
-  --r:16px;--r-sm:12px;--r-lg:20px;--r-xl:24px;--shadow:none;--shadow-card:none;
+  --font:'Inter',-apple-system,system-ui,'Helvetica Neue',sans-serif;--sans:var(--font);--serif:var(--font);
+  --bg:#fff;--bg2:#f7f8fa;--card:#fff;--fill:#eef0f3;--fill-hover:#e3e6ea;
+  --border:#dee1e6;--border2:#c4c9d1;--text:#0a0b0d;--text2:#5b616e;--text3:#8a919e;--white:#fff;
+  --green:#05b169;--green-dark:#05985a;--green-light:#e3f6ed;
+  --blue:#0052ff;--blue-dark:#0042d1;--blue-light:#eaf0ff;
+  --red:#cf202f;--red-light:#fdebed;--yellow:#f4b000;--yellow-light:#fff6dc;
+  --purple:#8b5cf6;--purple-dark:#7c3aed;--purple-light:#f2eeff;--orange:#f7931a;
+  --r:16px;--r-sm:12px;--r-lg:24px;--r-xl:32px;--shadow:none;--shadow-card:none;
 }
 :root.dark{
-  --bg:#131f24;--bg2:#1a2a31;--card:#1f2f37;--fill:#243842;--fill-hover:#2c444f;
-  --border:#37464f;--border2:#46606c;--text:#f1f7fb;--text2:#9fb3bd;--text3:#6b8390;--white:#131f24;
-  --green:#58cc02;--green-dark:#89e219;--green-light:rgba(88,204,2,.18);
-  --blue:#1cb0f6;--blue-dark:#49c0f8;--blue-light:rgba(28,176,246,.18);
-  --red:#ff4b4b;--red-light:rgba(255,75,75,.18);--purple-light:rgba(206,130,255,.18);--yellow-light:rgba(255,200,0,.16);
-  --shadow-card:none;
+  --bg:#0a0b0d;--bg2:#141519;--card:#141519;--fill:#1e2025;--fill-hover:#2a2c32;
+  --border:#2a2c32;--border2:#42454d;--text:#fff;--text2:#8a919e;--text3:#5b616e;--white:#0a0b0d;
+  --green:#3dd68c;--green-dark:#3dd68c;--green-light:rgba(61,214,140,.14);
+  --blue:#578bfa;--blue-dark:#7ba3fb;--blue-light:rgba(87,139,250,.16);
+  --red:#f0616d;--red-light:rgba(240,97,109,.16);--purple-light:rgba(139,92,246,.18);--yellow-light:rgba(244,176,0,.15);
 }
-body{font-family:var(--font);font-weight:700;letter-spacing:0;background:var(--bg) !important}
+body{font-family:var(--font);font-weight:400;letter-spacing:0;background:var(--bg) !important}
 html{background:var(--bg)}
 button,input{font-family:var(--font)}
-.home-header{border-bottom:2px solid var(--border);max-width:none;padding:0 28px;background:var(--bg)}
-.home-header>*{max-width:none}
-.logo-name{font-size:28px;font-weight:900;letter-spacing:0;color:var(--green)}
-.streak-badge{background:transparent;color:var(--orange);font-weight:900;font-size:16px;padding:6px 10px}
-.theme-btn{background:transparent;border:2px solid var(--border);box-shadow:0 3px 0 var(--border);width:40px;height:40px}
-.theme-btn:active{transform:translateY(3px);box-shadow:none}
-.home-hero h1{font-size:46px;font-weight:900;letter-spacing:0;line-height:1.1}
-.home-hero h1 em{background:none !important;-webkit-background-clip:border-box;background-clip:border-box;color:var(--green) !important}
-.home-hero p{font-size:17px;font-weight:700;color:var(--text2)}
-.stat-pill{border:2px solid var(--border);border-radius:var(--r-lg);box-shadow:0 4px 0 var(--border)}
-.stat-pill .val{font-size:30px;font-weight:900;letter-spacing:0;color:var(--blue)}
-.stat-pill:nth-child(1) .val{color:var(--orange)}.stat-pill:nth-child(2) .val{color:var(--green)}.stat-pill:nth-child(3) .val{color:var(--blue)}.stat-pill:nth-child(4) .val{color:var(--purple-dark)}
-.stat-pill .lbl{font-weight:800;text-transform:uppercase;letter-spacing:.06em;font-size:11px}
-.cat-icon{border:2px solid rgba(0,0,0,.08);border-bottom-width:6px;height:150px;background-image:none !important}
-.cat-card:hover .cat-icon{box-shadow:none;transform:translateY(-3px)}
-.cat-card:active .cat-icon{transform:translateY(3px);border-bottom-width:3px}
-.cat-card:nth-child(1) .cat-icon{background:#ffc800 !important;border-color:#e5b400}
-.cat-card:nth-child(2) .cat-icon{background:#1cb0f6 !important;border-color:#1899d6}
-.cat-card:nth-child(3) .cat-icon{background:#58cc02 !important;border-color:#58a700}
-.cat-card:nth-child(4) .cat-icon{background:#ce82ff !important;border-color:#a560e8}
-.cat-card:nth-child(5) .cat-icon{background:#ff9600 !important;border-color:#e58700}
-.cat-name{font-weight:900;font-size:20px;letter-spacing:0}
-.cat-desc{font-weight:700}
-.cat-count{background:var(--fill);font-weight:800;border-radius:12px;color:var(--text2)}
-.cat-tab{border:2px solid var(--border);box-shadow:0 3px 0 var(--border);background:var(--card);font-weight:800;border-radius:14px;padding:8px 18px;text-transform:uppercase;font-size:12px;letter-spacing:.05em}
-.cat-tab:active{transform:translateY(3px);box-shadow:none}
-.cat-tab.on{background:var(--blue-light);border-color:var(--blue);color:var(--blue);box-shadow:0 3px 0 var(--blue)}
-.game-topbar{background:var(--bg);border-bottom:0;max-width:760px;height:64px}
-.back-btn{background:transparent;border:2px solid var(--border);box-shadow:0 3px 0 var(--border);border-radius:14px;width:40px;height:40px;color:var(--text2)}
-.back-btn:hover{background:var(--fill);color:var(--text)}.back-btn:active{transform:translateY(3px);box-shadow:none}
-.progress-bar-wrap{height:16px;background:var(--border);border:0;border-radius:999px;position:relative}
-.progress-bar-fill{background:var(--green);border-radius:999px;position:relative}
-.progress-bar-fill::after{content:'';position:absolute;left:8px;right:8px;top:4px;height:4px;border-radius:4px;background:rgba(255,255,255,.35)}
-.question-card{background:var(--card);border:2px solid var(--border);border-radius:var(--r-xl);box-shadow:0 4px 0 var(--border);padding:40px 28px}
-.q-label{font-weight:900;letter-spacing:.06em}
-.q-problem{font-weight:900;letter-spacing:0}
-.answer-input{border:2px solid var(--border);border-radius:var(--r);background:var(--bg2);font-weight:900;font-size:30px;letter-spacing:0;box-shadow:inset 0 -3px 0 rgba(0,0,0,.04)}
-.answer-input:focus{border-color:var(--blue);background:var(--blue-light)}
+.home-header{height:72px;border-bottom:1px solid var(--border);max-width:none;padding:0 28px;background:var(--bg)}
+.logo-name{font-size:24px;font-weight:600;letter-spacing:-.03em;color:var(--blue);text-transform:lowercase}
+.streak-badge{background:var(--fill);color:var(--text);font-weight:500;font-size:15px;padding:12px 20px;border-radius:999px;border:0}
+.theme-btn{background:var(--fill);border:0;box-shadow:none;width:44px;height:44px}
+.theme-btn:hover{background:var(--fill-hover)}
+.home-hero{text-align:center;padding:72px 26px 36px}
+.home-hero h1{font-size:72px;font-weight:400;letter-spacing:-.04em;line-height:1.04}
+.home-hero h1 em{background:none !important;-webkit-background-clip:border-box;background-clip:border-box;color:var(--blue) !important;font-style:normal}
+.home-hero p{margin:0 auto;max-width:560px;font-size:19px;font-weight:400;color:var(--text);line-height:1.5}
+.stats-strip{padding:0 26px 40px;gap:14px}
+.stat-pill{background:var(--bg2);border:0;border-radius:var(--r-lg);box-shadow:none;padding:22px 24px;text-align:left}
+.stat-pill .val{font-size:34px;font-weight:400;letter-spacing:-.03em;color:var(--text)}
+.stat-pill:nth-child(n) .val{color:var(--text)}
+.stat-pill .lbl{font-size:13px;font-weight:500;text-transform:none;letter-spacing:0;color:var(--text2);margin-top:8px}
+.cat-cards{padding:0 26px 64px;gap:20px}
+.cat-icon{height:210px;border-radius:var(--r-xl);border:0;margin-bottom:18px;font-size:60px;transition:transform .25s,box-shadow .25s}
+.cat-card:nth-child(n) .cat-icon{background:radial-gradient(120% 90% at 50% 130%,rgba(0,82,255,.75),transparent 62%),radial-gradient(60% 50% at 80% 0%,rgba(87,139,250,.22),transparent 70%),#04070f !important}
+.cat-card:hover .cat-icon{transform:translateY(-3px);box-shadow:0 22px 50px -22px rgba(0,82,255,.6)}
+.cat-card:active .cat-icon{transform:translateY(0)}
+.cat-name{font-size:22px;font-weight:500;letter-spacing:-.03em}
+.cat-desc{font-size:15px;font-weight:400;color:var(--text2)}
+.cat-count{background:var(--fill);color:var(--text);font-weight:500;border-radius:999px;padding:6px 14px}
+.cat-tab{border:0;box-shadow:none;background:var(--fill);color:var(--text);font-weight:500;border-radius:999px;padding:10px 20px;text-transform:none;font-size:14px;letter-spacing:0}
+.cat-tab:hover{background:var(--fill-hover)}
+.cat-tab.on{background:var(--text);color:var(--bg);box-shadow:none}
+.game-topbar{background:var(--bg);border-bottom:0;max-width:760px;height:72px}
+.back-btn{background:var(--fill);border:0;box-shadow:none;border-radius:50%;width:44px;height:44px;color:var(--text)}
+.back-btn:hover{background:var(--fill-hover)}
+.progress-bar-wrap{height:6px;background:var(--fill);border:0;border-radius:999px}
+.progress-bar-fill{background:var(--blue);border-radius:999px}
+.progress-bar-fill::after{display:none}
+.question-card{background:var(--bg2);border:0;border-radius:var(--r-xl);box-shadow:none;padding:52px 32px}
+.q-label{font-weight:500;letter-spacing:.04em;color:var(--text2)}
+.q-problem{font-weight:400;letter-spacing:-.04em}
+.answer-input{border:1px solid var(--border);border-radius:var(--r-lg);background:var(--bg);font-weight:400;font-size:34px;letter-spacing:-.03em;box-shadow:none}
+.answer-input:focus{border-color:var(--blue);background:var(--bg)}
 .answer-input.correct{border-color:var(--green);background:var(--green-light)}
 .answer-input.wrong{border-color:var(--red);background:var(--red-light)}
-.option-btn,.oo-tile{border:2px solid var(--border);border-bottom-width:5px;border-radius:var(--r);background:var(--card);font-weight:800;letter-spacing:0;color:var(--text);transition:transform .08s,border-color .08s,background .08s}
-.option-btn:hover:not(:disabled),.oo-tile:hover:not(:disabled){background:var(--bg2);border-color:var(--border);transform:none}
-.option-btn:active:not(:disabled),.oo-tile:active:not(:disabled){transform:translateY(3px);border-bottom-width:2px;margin-bottom:3px}
+.option-btn,.oo-tile{border:1px solid var(--border);border-bottom-width:1px;border-radius:var(--r-lg);background:var(--bg);font-weight:400;letter-spacing:-.03em;color:var(--text);box-shadow:none}
+.option-btn:hover:not(:disabled),.oo-tile:hover:not(:disabled){background:var(--bg2);border-color:var(--text);transform:none}
+.option-btn:active:not(:disabled),.oo-tile:active:not(:disabled){transform:scale(.98);border-bottom-width:1px;margin-bottom:0}
 .option-btn.correct,.oo-tile.correct{background:var(--green-light);border-color:var(--green);color:var(--green-dark)}
 .option-btn.wrong,.oo-tile.wrong{background:var(--red-light);border-color:var(--red);color:var(--red)}
-.gm-cell{border:2px solid var(--border);border-bottom-width:5px;border-radius:14px;background:var(--card)}
-.gm-cell.lit{background:var(--blue);border-color:var(--blue-dark)}
+.gm-cell{border:1px solid var(--border);border-bottom-width:1px;border-radius:14px;background:var(--bg)}
+.gm-cell.lit{background:var(--blue);border-color:var(--blue)}
 .gm-cell.selected{background:var(--blue-light);border-color:var(--blue)}
 .gm-cell.correct{background:var(--green-light);border-color:var(--green)}
 .gm-cell.wrong{background:var(--red-light);border-color:var(--red)}
-.submit-btn,.btn-again,.play-btn{border:0;border-radius:var(--r);background:var(--green);color:#fff;font-weight:900;font-size:15px;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 5px 0 var(--green-dark);padding:15px 20px;transition:transform .08s,box-shadow .08s}
-.play-btn{padding:10px 20px;font-size:13px}
-.submit-btn:hover,.btn-again:hover,.play-btn:hover{background:var(--green);opacity:.94}
-.submit-btn:active:not(:disabled),.btn-again:active,.play-btn:active{transform:translateY(5px);box-shadow:none}
-.submit-btn:disabled{background:var(--fill);color:var(--text3);box-shadow:0 5px 0 var(--border)}
-.btn-home{border:2px solid var(--border);background:var(--card);color:var(--blue);border-radius:var(--r);font-weight:900;font-size:15px;letter-spacing:.06em;text-transform:uppercase;box-shadow:0 4px 0 var(--border);padding:15px}
-.btn-home:hover{background:var(--bg2);color:var(--blue)}.btn-home:active{transform:translateY(4px);box-shadow:none}
-.feedback-chip{border-radius:var(--r);font-weight:900;font-size:16px;padding:12px 20px}
+.submit-btn,.btn-again{border:0;border-radius:999px;background:var(--blue);color:#fff;font-weight:500;font-size:16px;letter-spacing:0;text-transform:none;box-shadow:none;padding:16px 22px}
+.play-btn{border:0;border-radius:999px;background:var(--text);color:var(--bg);font-weight:500;font-size:14px;letter-spacing:0;text-transform:none;box-shadow:none;padding:10px 22px}
+.submit-btn:hover,.btn-again:hover{background:var(--blue-dark);opacity:1}
+.play-btn:hover{background:var(--text);opacity:.85}
+.submit-btn:active:not(:disabled),.btn-again:active,.play-btn:active{transform:scale(.98);box-shadow:none}
+.submit-btn:disabled{background:var(--fill);color:var(--text3);box-shadow:none}
+.btn-home{border:0;background:var(--fill);color:var(--text);border-radius:999px;font-weight:500;font-size:16px;letter-spacing:0;text-transform:none;box-shadow:none;padding:16px 22px}
+.btn-home:hover{background:var(--fill-hover);color:var(--text)}.btn-home:active{transform:scale(.98);box-shadow:none}
+.feedback-chip{border-radius:999px;font-weight:500;font-size:15px;padding:10px 22px}
 .feedback-chip.correct{background:var(--green-light);color:var(--green-dark)}
 .feedback-chip.wrong{background:var(--red-light);color:var(--red)}
-.results-card{border:2px solid var(--border);border-radius:var(--r-xl);box-shadow:0 4px 0 var(--border)}
-.results-title{font-weight:900;letter-spacing:0}
-.rs-val{font-weight:900;letter-spacing:0}
-.rs-lbl{font-weight:800;text-transform:uppercase;letter-spacing:.06em}
-.pb-banner{font-weight:900}
-/* ═══ end DUO-STYLE THEME ═══ */
+.results-card{background:var(--bg2);border:0;border-radius:var(--r-xl);box-shadow:none}
+.results-title{font-weight:400;letter-spacing:-.04em}
+.rs-val{font-weight:400;letter-spacing:-.03em}
+.rs-lbl{font-weight:500;text-transform:none;letter-spacing:0}
+.pb-banner{font-weight:500}
+/* richer layout + icons */
+.hero-cta{margin-top:28px;border:0;border-radius:999px;background:var(--text);color:var(--bg);font-size:17px;font-weight:500;padding:18px 40px;cursor:pointer;transition:opacity .15s,transform .1s}
+.hero-cta:hover{opacity:.86}.hero-cta:active{transform:scale(.98)}
+.ico-flame{color:var(--orange);vertical-align:-2px}
+.streak-badge,.theme-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.results-emoji{display:flex;justify-content:center;color:var(--blue);margin-bottom:10px;font-size:0}
+.showcase{max-width:1128px;margin:6px auto 56px;border-radius:40px;padding:22px 22px 26px;background:radial-gradient(90% 120% at 50% 140%,rgba(0,82,255,.55),transparent 62%),radial-gradient(50% 60% at 85% -10%,rgba(87,139,250,.22),transparent 70%),#04070f;color:#fff;width:calc(100% - 52px)}
+.showcase-bar{display:flex;align-items:center;gap:10px;padding:4px 14px 18px;font-size:15px;font-weight:500;color:#dbe3f5}
+.sc-dot{width:10px;height:10px;border-radius:50%;background:var(--green)}
+.sc-title{flex:1}
+.sc-pill{background:rgba(255,255,255,.1);border-radius:999px;padding:6px 14px;font-size:13px;color:#dbe3f5}
+.showcase .stats-strip{padding:0;margin:0;max-width:none;width:auto}
+.showcase .stat-pill{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:24px;backdrop-filter:blur(6px)}
+.showcase .stat-pill .val,.showcase .stat-pill:nth-child(n) .val{color:#fff}
+.showcase .stat-pill .lbl{color:#9aa7c4}
+.section-title{font-size:34px;font-weight:400;letter-spacing:-.035em;padding:0 26px 22px;max-width:1180px;margin:0 auto}
+.cat-icon{color:#fff}
+.cat-icon svg{padding:14px;box-sizing:content-box;width:56px;height:56px;border-radius:22px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.14)}
+.cat-card:nth-child(1) .cat-icon{background:radial-gradient(120% 90% at 50% 130%,rgba(247,147,26,.7),transparent 62%),#04070f !important}
+.cat-card:nth-child(2) .cat-icon{background:radial-gradient(120% 90% at 50% 130%,rgba(0,82,255,.8),transparent 62%),#04070f !important}
+.cat-card:nth-child(3) .cat-icon{background:radial-gradient(120% 90% at 50% 130%,rgba(5,177,105,.65),transparent 62%),#04070f !important}
+.cat-card:nth-child(4) .cat-icon{background:radial-gradient(120% 90% at 50% 130%,rgba(139,92,246,.75),transparent 62%),#04070f !important}
+.cat-card:nth-child(5) .cat-icon{background:radial-gradient(120% 90% at 50% 130%,rgba(20,184,166,.7),transparent 62%),#04070f !important}
+@media(max-width:720px){.home-hero h1{font-size:46px}.section-title{font-size:26px}.showcase{border-radius:28px}}
+/* ═══ end CLEAN-FINANCE THEME ═══ */
 </style>
 </head>
 <body>
 <div class="screen active" id="homeScreen">
   <div class="home-header">
-    <div class="logo"><div class="logo-icon">B</div><div class="logo-name">Bitsnap</div></div>
-    <div class="hdr-right"><div class="streak-badge">&#128293; <span id="streakCount">0</span> day streak</div><button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Light / dark mode"></button></div>
+    <div class="logo"><div class="logo-icon"><svg viewBox='0 0 64 64' width='32' height='32'><defs><linearGradient id='a' gradientUnits='userSpaceOnUse' x1='3.9' y1='0' x2='27.9' y2='0'><stop offset='0' stop-color='#fff' stop-opacity='0.15'/><stop offset='1' stop-color='#fff' stop-opacity='1'/></linearGradient><linearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='3.9' x2='0' y2='27.9'><stop offset='0' stop-color='#fff' stop-opacity='0.15'/><stop offset='1' stop-color='#fff' stop-opacity='1'/></linearGradient><linearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='36' x2='0' y2='60'><stop offset='0' stop-color='#fff' stop-opacity='1'/><stop offset='1' stop-color='#fff' stop-opacity='0.15'/></linearGradient><linearGradient id='d' gradientUnits='userSpaceOnUse' x1='36' y1='0' x2='60' y2='0'><stop offset='0' stop-color='#fff' stop-opacity='1'/><stop offset='1' stop-color='#fff' stop-opacity='0.15'/></linearGradient></defs><clipPath id='tc'><rect width='64' height='64' rx='15'/></clipPath><rect width='64' height='64' rx='15' fill='#2a2af7'/><g clip-path='url(#tc)'><path d='M3.9 15.9A12 12 0 0 0 27.9 15.9' fill='none' stroke='url(#a)' stroke-width='8' stroke-linecap='butt'/><path d='M48 3.9A12 12 0 0 0 48 27.9' fill='none' stroke='url(#b)' stroke-width='8' stroke-linecap='butt'/><path d='M15.9 36A12 12 0 0 1 15.9 60' fill='none' stroke='url(#c)' stroke-width='8' stroke-linecap='butt'/><path d='M36 48A12 12 0 0 1 60 48' fill='none' stroke='url(#d)' stroke-width='8' stroke-linecap='butt'/><circle cx='27.9' cy='15.9' r='4' fill='#fff'/><circle cx='48' cy='27.9' r='4' fill='#fff'/><circle cx='15.9' cy='36' r='4' fill='#fff'/><circle cx='36' cy='48' r='4' fill='#fff'/></g></svg></div><div class="logo-name">Snap</div></div>
+    <div class="hdr-right"><div class="streak-badge"><svg class="ico-flame" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c1 4 5 6 5 11a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-4 0-7 1-10z"/></svg> <span id="streakCount">0</span> day streak</div><button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="Light / dark mode"></button></div>
   </div>
   <div class="home-hero">
     <div class="hero-doodles">
@@ -436,17 +458,20 @@ button,input{font-family:var(--font)}
     </div>
     <h1>Sharpen<br><em>your mind.</em></h1>
     <p>Daily drills for speed, memory, and mental clarity. Pick a mode and start training.</p>
+    <button class="hero-cta" onclick="document.getElementById('homeCategories').scrollIntoView({behavior:'smooth'})">Start training</button>
   </div>
+  <div class="showcase"><div class="showcase-bar"><span class="sc-dot"></span><span class="sc-title">Your progress</span><span class="sc-pill">All time</span></div>
   <div class="stats-strip">
     <div class="stat-pill"><div class="val" id="totalSessions">0</div><div class="lbl">Sessions</div></div>
     <div class="stat-pill"><div class="val" id="totalCorrect">0</div><div class="lbl">Correct</div></div>
     <div class="stat-pill"><div class="val" id="totalAccuracy">&mdash;</div><div class="lbl">Accuracy</div></div>
     <div class="stat-pill"><div class="val" id="totalTime">0m</div><div class="lbl">Trained</div></div>
-  </div>
+  </div></div>
   <div id="homeCategories">
+    <h2 class="section-title">Pick your training</h2>
     <div class="cat-cards">
       <div class="cat-card" onclick="openCategory('Speed')">
-        <div class="cat-icon" style="background:var(--orange-light)">⚡</div>
+        <div class="cat-icon" style="background:var(--orange-light)"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div>
         <div class="cat-info">
           <div class="cat-name">Speed</div>
           <div class="cat-desc">Rapid-fire drills for processing speed and snap decisions</div>
@@ -455,7 +480,7 @@ button,input{font-family:var(--font)}
         <div class="cat-arrow">→</div>
       </div>
       <div class="cat-card" onclick="openCategory('Memory')">
-        <div class="cat-icon" style="background:var(--blue-light)">🧠</div>
+        <div class="cat-icon" style="background:var(--blue-light)"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.200l3 8.600M16 7.200l-3 8.600M8.500 6h7"/></svg></div>
         <div class="cat-info">
           <div class="cat-name">Memory</div>
           <div class="cat-desc">Train recall, pattern recognition, and visual memory</div>
@@ -464,7 +489,7 @@ button,input{font-family:var(--font)}
         <div class="cat-arrow">→</div>
       </div>
       <div class="cat-card" onclick="openCategory('Logic')">
-        <div class="cat-icon" style="background:var(--green-light)">🧩</div>
+        <div class="cat-icon" style="background:var(--green-light)"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><path d="M14 17.500h7M17.500 14v7"/></svg></div>
         <div class="cat-info">
           <div class="cat-name">Logic</div>
           <div class="cat-desc">Patterns, estimation, and reasoning under pressure</div>
@@ -473,21 +498,12 @@ button,input{font-family:var(--font)}
         <div class="cat-arrow">→</div>
       </div>
       <div class="cat-card" onclick="openCategory('Code')">
-        <div class="cat-icon" style="background:var(--purple-light)">💻</div>
+        <div class="cat-icon" style="background:var(--purple-light)"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></div>
         <div class="cat-info">
           <div class="cat-name">Code</div>
           <div class="cat-desc">Algorithm analysis and code reading under pressure</div>
         </div>
         <div class="cat-count" id="catCount-Code">3 games</div>
-        <div class="cat-arrow">→</div>
-      </div>
-      <div class="cat-card" onclick="openCategory('Quran')">
-        <div class="cat-icon" style="background:#e6fdf8">🕌</div>
-        <div class="cat-info">
-          <div class="cat-name">Quran</div>
-          <div class="cat-desc">Build reading speed, translation recall, and surah recognition</div>
-        </div>
-        <div class="cat-count" id="catCount-Quran">7 games</div>
         <div class="cat-arrow">→</div>
       </div>
     </div>
@@ -514,7 +530,7 @@ button,input{font-family:var(--font)}
 </div>
 <div class="screen" id="resultsScreen">
   <div class="results-card">
-    <span class="results-emoji" id="resultsEmoji">&#127881;</span>
+    <span class="results-emoji" id="resultsEmoji"><svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.500l3 3 5-6"/></svg></span>
     <div class="results-title" id="resultsTitle">Nice work!</div>
     <div class="results-sub" id="resultsSub">Here's how you did</div>
     <div class="results-stats">
@@ -522,7 +538,7 @@ button,input{font-family:var(--font)}
       <div class="rs-stat"><div class="rs-val" id="r-accuracy">0%</div><div class="rs-lbl">Accuracy</div></div>
       <div class="rs-stat"><div class="rs-val" id="r-time">0s</div><div class="rs-lbl">Time</div></div>
     </div>
-    <div class="pb-banner" id="pbBanner">&#127942; New personal best!</div>
+    <div class="pb-banner" id="pbBanner"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-2px"><path d="M12 3l2.700 5.600 6.100.9-4.400 4.300 1 6.100L12 17l-5.400 2.900 1-6.100L3.200 9.500l6.100-.9z"/></svg> New personal best!</div>
     <div class="results-btns">
       <button class="btn-again" onclick="playAgain()">Play again</button>
       <button class="btn-home" onclick="goHome()">Home</button>
@@ -536,7 +552,10 @@ button,input{font-family:var(--font)}
 <script>
 
 // ── Theme (light / dark) ──
-function applyThemeBtn(){ var b=document.getElementById('themeBtn'); if(b) b.textContent=document.documentElement.classList.contains('dark')?'\u2600\uFE0F':'\uD83C\uDF19'; }
+function applyThemeBtn(){ var b=document.getElementById('themeBtn'); if(!b) return;
+  var sun='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M2 12h2M20 12h2M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400"/></svg>';
+  var moon='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.800A9 9 0 1 1 11.200 3a7 7 0 0 0 9.800 9.800z"/></svg>';
+  b.innerHTML=document.documentElement.classList.contains('dark')?sun:moon; }
 function toggleTheme(){
   var d=document.documentElement.classList.toggle('dark');
   try{ localStorage.setItem('hone_theme', d?'dark':'light'); }catch(e){}
@@ -612,27 +631,6 @@ var MODES = [
   {id:'output',name:'Output Prediction',cat:'Code',color:'purple',
    desc:'Read a code snippet, predict the output. Tricky edge cases that test real understanding.',
    svg:'<rect x="4" y="4" width="32" height="32" rx="6" stroke="currentColor" stroke-width="1.5" fill="none"/><text x="8" y="16" font-family="monospace" font-size="8" fill="currentColor">&gt;_</text><line x1="8" y1="22" x2="28" y2="22" stroke="currentColor" stroke-width="1" opacity=".3"/><line x1="8" y1="28" x2="20" y2="28" stroke="currentColor" stroke-width="1" opacity=".3"/>'},
-  {id:'ayahmatch',name:'Ayah Translation',cat:'Quran',color:'green',
-   desc:'See an ayah in Arabic, pick the correct English translation. Builds comprehension fast.',
-   svg:'<rect x="4" y="4" width="32" height="14" rx="4" stroke="currentColor" stroke-width="1.2" fill="none"/><rect x="4" y="22" width="32" height="14" rx="4" stroke="currentColor" stroke-width="1.2" fill="none"/><line x1="20" y1="18" x2="20" y2="22" stroke="currentColor" stroke-width="1.2"/>'},
-  {id:'fillgap',name:'Fill the Gap',cat:'Quran',color:'green',
-   desc:'An ayah with one word missing. Pick the correct word. Tests deep familiarity.',
-   svg:'<text x="4" y="20" font-family="serif" font-size="14" fill="currentColor">___</text><text x="4" y="36" font-family="serif" font-size="10" fill="currentColor">?</text><circle cx="30" cy="28" r="8" stroke="currentColor" stroke-width="1.2" fill="none"/>'},
-  {id:'surahid',name:'Surah Identifier',cat:'Quran',color:'green',
-   desc:'See an ayah, identify which surah it belongs to. Builds navigation instinct.',
-   svg:'<path d="M10 4 L10 36 M10 4 C10 4 30 4 30 14 C30 24 10 24 10 24" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="26" cy="32" r="5" stroke="currentColor" stroke-width="1.2" fill="none"/><text x="23" y="35" font-family="serif" font-size="7" fill="currentColor">?</text>'},,
-  {id:'letterflash',name:'Letter Flash',cat:'Quran',color:'green',
-   desc:'A letter appears in connected form. Which letter is it? Drills the pairs that trip you up.',
-   svg:'<text x="10" y="30" font-size="24" fill="currentColor" font-family="serif">\u0628</text><text x="28" y="16" font-size="12" fill="currentColor">?</text>'},
-  {id:'worddecode',name:'Word Decode',cat:'Quran',color:'green',
-   desc:'A voweled Arabic word appears. Pick the correct transliteration. Forces real reading.',
-   svg:'<rect x="4" y="8" width="32" height="24" rx="6" stroke="currentColor" stroke-width="1.2" fill="none"/><text x="12" y="24" font-size="10" fill="currentColor" font-family="serif">\u0643\u064e</text><line x1="10" y1="34" x2="30" y2="34" stroke="currentColor" stroke-width="1" stroke-dasharray="2 2"/>'},
-  {id:'wordflash',name:'Common Word Flash',cat:'Quran',color:'green',
-   desc:'The most frequent Quranic words, rapid fire. See Arabic, pick the meaning. Pure repetition.',
-   svg:'<circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.5" fill="none"/><text x="13" y="24" font-size="12" fill="currentColor" font-family="serif">\u0642\u0644</text>'},
-  {id:'positiontr',name:'Position Trainer',cat:'Quran',color:'green',
-   desc:'See a letter form — is it initial, medial, final, or isolated? Master how letters change shape.',
-   svg:'<text x="2" y="16" font-size="10" fill="currentColor" font-family="serif">بـ</text><text x="18" y="16" font-size="10" fill="currentColor" font-family="serif">ـبـ</text><text x="2" y="34" font-size="10" fill="currentColor" font-family="serif">ـب</text><text x="18" y="34" font-size="10" fill="currentColor" font-family="serif">ب</text>'},
   {id:'dualstream',name:'Dual Stream',cat:'Memory',color:'blue',
    desc:'Two number sequences flash simultaneously. Track both. Answer questions about each.',
    svg:'<line x1="8" y1="8" x2="8" y2="32" stroke="currentColor" stroke-width="1.5"/><line x1="32" y1="8" x2="32" y2="32" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="14" r="3" fill="currentColor"/><circle cx="32" cy="20" r="3" fill="currentColor"/><circle cx="8" cy="26" r="3" fill="currentColor"/><circle cx="32" cy="28" r="3" fill="currentColor"/>'},
@@ -703,7 +701,7 @@ function renderModes(){
 
 function renderHome(){
   updateStreak();
-  ['Speed','Memory','Logic','Code','Quran'].forEach(function(c){ var el=document.getElementById('catCount-'+c); if(el) el.textContent=MODES.filter(function(m){return m.cat===c;}).length+' games'; });
+  ['Speed','Memory','Logic','Code'].forEach(function(c){ var el=document.getElementById('catCount-'+c); if(el) el.textContent=MODES.filter(function(m){return m.cat===c;}).length+' games'; });
   document.getElementById('streakCount').textContent = stats.streak||0;
   document.getElementById('totalSessions').textContent = stats.sessions||0;
   document.getElementById('totalCorrect').textContent = stats.correct||0;
@@ -939,7 +937,7 @@ function checkMemory(){
     session.correct++; memQ++; memLevel++;
     setScore(session.correct); setProgress(memQ,memTotal);
     inp.classList.add('correct');
-    fb.innerHTML=`<div class="feedback-chip correct">✓ Perfect! Level up 🎯</div>`;
+    fb.innerHTML=`<div class="feedback-chip correct">✓ Perfect! Level up</div>`;
     setTimeout(()=>nextMemoryRound(),700);
   } else {
     memQ++; if(memLevel>3) memLevel--;
@@ -1102,7 +1100,7 @@ function checkChain(){
     session.correct++; chainQ++;
     setScore(session.correct); setProgress(chainQ,chainTotal);
     inp.classList.add('correct');
-    fb.innerHTML=`<div class="feedback-chip correct">✓ Correct! 🔥</div>`;
+    fb.innerHTML=`<div class="feedback-chip correct">✓ Correct!</div>`;
     setTimeout(()=>nextChain(),600);
   } else {
     chainQ++; setProgress(chainQ,chainTotal);
@@ -3099,8 +3097,6 @@ function finishSession(correct,attempts,elapsed,score){
 
   const acc=attempts?Math.round(correct/attempts*100):0;
   const titles={math:'Sprint complete!',memory:'Memory done!',patterns:'Pattern master!',chains:'Chain broken!',rapid:'Lightning fast!',fermi:'Estimation done!',operator:'Hunt complete!',truefalse:'Quick thinker!',gridmem:'Grid cleared!',flashnum:'Sharp eyes!',bigo:'Complexity mastered!',output:'Code reader!',ayahmatch:'MashaAllah!',fillgap:'Well memorized!',surahid:'Surah scholar!',letterflash:'Sharp reader!',worddecode:'Well decoded!',wordflash:'Word master!',positiontr:'Form master!',dualstream:'Dual tracked!',chunking:'Well chunked!',codehead:'Mental compiler!',calibrate:'Well calibrated!',percent:'Percent pro!',mult:'Tables mastered!',estsum:'Sharp estimator!',wordpairs:'Pairs locked in!',oddone:'Keen eye!',spotbug:'Bug hunter!'};
-  const emojis={math:'⚡',memory:'🧩',patterns:'🔢',chains:'🔗',rapid:'👁️',fermi:'🎯',operator:'🔍',truefalse:'✅',gridmem:'🟦',flashnum:'💡',bigo:'📊',output:'💻',ayahmatch:'📖',fillgap:'✨',surahid:'🕌',percent:'％',mult:'✖️',estsum:'🎯',wordpairs:'🔗',oddone:'🧐',spotbug:'🐛'};
-  document.getElementById('resultsEmoji').textContent=emojis[currentMode];
   document.getElementById('resultsTitle').textContent=titles[currentMode];
   document.getElementById('resultsSub').textContent=`${correct} correct out of ${attempts} attempts`;
   document.getElementById('r-score').textContent=score;
